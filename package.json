@@ -1,0 +1,33 @@
+{
+  "name": "proyectofinal_back",
+  "version": "1.0.0",
+  "description": "Proyecto Final Tecnologias Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brunizzz/AnimalGym.git"
+  },
+  "author": "Equipo AnimalGym",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brunizzz/AnimalGym/issues"
+  },
+  "homepage": "https://github.com/Brunizzz/AnimalGym#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.4.0",
+    "ng-recaptcha": "^13.2.1",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.3"
+  },
+  "keywords": []
+}

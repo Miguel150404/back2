@@ -1,0 +1,6 @@
+# Archivos de entorno y credenciales
+.env
+serviceAccountKey.json
+
+# Dependencias de Node
+node_modules/
