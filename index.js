@@ -11,10 +11,10 @@ app.use(cors());
 app.use(express.json());
 
 // Rutas del frontend Angular (PWA)
-app.use(express.static(__dirname + '/dist/ProyectoFinal_front'));
-app.get(/^\/(?!api).*/, (req, res) => {
+/*app.use(express.static(__dirname + '/dist/ProyectoFinal_front'));
+app.get(/^\/(?!api)., (req, res) => {
   res.sendFile(__dirname + '/dist/ProyectoFinal_front/index.html');
-});
+});*/
 
 
 //Captcha
